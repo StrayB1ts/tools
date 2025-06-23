@@ -10,6 +10,6 @@ This is a catch-all repo for tools I may create to help automate things. If any 
 | --- | --- | --- |
 |WeAct BlackPill v3.0| ST-Link v2|✔️Working|
 # battery.sh + bat.sh
-**Description**: Simple bash scripts that query and return your battery percentage via acpi. battery.sh gives notifications via notify-send when the percentage is below 50% and then another notification if it is below 25%.
+**Description**: Simple bash scripts that query and return your battery percentage via acpi. battery.sh gives notifications via notify-send and a cronjob when the percentage is below 50% and then another notification if it is below 25%, which runs every 10 minutes but this can be changed in the cron job.
 
-**Usage**: They doesn't echo the battery percentage to the terminal, but you could easily modify them to do so. I personally use battery.sh with a cron job for notifications and bat.sh to display my battery percentage in tmux
+**Usage**: They don't echo the battery percentage to the terminal, but you could easily modify them to do so. I personally use battery.sh with a cron job for notifications and bat.sh to display my battery percentage in tmux
